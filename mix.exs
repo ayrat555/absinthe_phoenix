@@ -41,7 +41,7 @@ defmodule Absinthe.Phoenix.Mixfile do
 
   defp deps do
     [
-      {:absinthe_plug, "~> 1.4.0"},
+      {:absinthe_plug, git: "git@github.com:ayrat555/absinthe_plug.git", branch: "ab-allow-to-set-default-query"},
       {:absinthe, "~> 1.4.0 or ~> 1.5.0-alpha.0"},
       {:decimal, "~> 1.0"},
       {:phoenix, "~> 1.2"},
